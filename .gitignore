@@ -1,0 +1,17 @@
+# Maven build output
+**/target/
+
+# Frontend dependencies and build output
+**/node_modules/
+**/dist/
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and editor/OS metadata
+*.log
+.vscode/
+.idea/
+Thumbs.db
